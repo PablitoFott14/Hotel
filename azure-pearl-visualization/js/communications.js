@@ -69,17 +69,17 @@ function _drawEmails() {
   }
 
   let html = '';
-  filtered.forEach(e => {
-    const eid = 'em-' + escHtml(e.email_id);
+  filtered.forEach((e, i) => {
+    const eid = `em-row-${i}`;
     const from = e.folder === 'SENT' ? (e.recipients || []).join(', ') : e.sender;
     const cc = (e.cc || []).length ? ` | CC: ${escHtml(e.cc.join(', '))}` : '';
     html += `<div class="email-item">
-      <div class="email-header" onclick="apToggleEmail('${escHtml(e.email_id)}')">
+      <button type="button" class="email-header" onclick="apToggleEmail('${eid}')" aria-expanded="false" aria-controls="${eid}">
         <span class="${e.is_read ? 'email-read-dot' : 'email-unread-dot'}"></span>
         <span class="email-from">${escHtml(from)}</span>
         <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
         <span class="email-meta">${fmtTs(e.timestamp)}</span>
-      </div>
+      </button>
       <div class="email-body" id="${eid}">
         <div class="email-body-meta">${e.folder === 'SENT' ? 'To:' : 'From:'} ${escHtml(from)}${cc}</div>
         <div class="email-content">${escHtml(e.content || '')}</div>
@@ -106,11 +106,11 @@ function _drawResMail() {
   const page = paginate(filtered, _rmPage, RM_PAGE);
   let html = '';
 
-  page.forEach(e => {
-    const eid = 'rm-' + escHtml(e.email_id);
+  page.forEach((e, i) => {
+    const eid = `rm-row-${(_rmPage - 1) * RM_PAGE + i}`;
     const sentAt = `${escHtml(e.date || '')}${e.time ? ' ' + escHtml(e.time) : ''}`;
     html += `<div class="email-item">
-      <div class="email-header" onclick="apToggleEmail('${eid}')">
+      <button type="button" class="email-header" onclick="apToggleEmail('${eid}')" aria-expanded="false" aria-controls="${eid}">
         <span class="email-read-dot"></span>
         <div class="email-res-main">
           <span class="email-from">${escHtml(e.from_name || e.from_email)}</span>
@@ -118,7 +118,7 @@ function _drawResMail() {
           <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
         </div>
         <span class="email-meta">${escHtml(e.date || '')}</span>
-      </div>
+      </button>
       <div class="email-body" id="${eid}">
         <div class="email-body-meta">From: ${escHtml(e.from_email)} | ${sentAt}</div>
         <div class="email-content">${escHtml(e.body || '')}</div>
@@ -135,5 +135,8 @@ function apToggleEmail(id) {
   const el = document.getElementById(id)
     || document.getElementById('em-' + id)
     || document.getElementById('rm-' + id);
-  if (el) el.classList.toggle('open');
+  if (!el) return;
+  const isOpen = el.classList.toggle('open');
+  const trigger = document.querySelector(`[aria-controls="${id}"]`);
+  if (trigger) trigger.setAttribute('aria-expanded', String(isOpen));
 }
