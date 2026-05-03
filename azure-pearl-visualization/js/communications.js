@@ -111,12 +111,12 @@ function _drawResMail() {
     html += `<div class="email-item">
       <div class="email-header" onclick="apToggleEmail('${eid}')">
         <span class="email-read-dot"></span>
-        <div style="flex:1;min-width:0;display:flex;align-items:center;gap:8px">
-          <span style="font-size:12px;font-weight:600;color:var(--text);flex-shrink:0;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.from_name || e.from_email)}</span>
+        <div class="email-res-main">
+          <span class="email-from">${escHtml(e.from_name || e.from_email)}</span>
           ${e.confirmation_code ? `<span class="badge badge-azure" style="flex-shrink:0;font-size:9px">${escHtml(e.confirmation_code)}</span>` : ''}
-          <span style="font-size:12px;color:var(--text2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.subject || '(no subject)')}</span>
+          <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
         </div>
-        <span class="email-meta" style="flex-shrink:0;margin-left:8px">${escHtml(e.date || '')}</span>
+        <span class="email-meta">${escHtml(e.date || '')}</span>
       </div>
       <div class="email-body" id="${eid}">
         <div style="font-size:10px;color:var(--text3);margin-bottom:8px">

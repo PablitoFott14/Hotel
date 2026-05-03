@@ -218,23 +218,36 @@ tbody tr.clickable:hover td { background: var(--surface2); color: var(--text); }
 .room-guest { font-size: 11px; color: var(--azure); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* ─── OCCUPANCY CHART ─── */
-.occ-chart { display: flex; align-items: flex-end; gap: 3px; height: 60px; }
-.occ-bar { flex: 1; border-radius: 2px 2px 0 0; min-width: 4px; cursor: default; transition: opacity 0.15s; }
+.occ-chart { display: flex; align-items: flex-end; gap: 4px; height: 68px; padding-top: 4px; }
+.occ-bar { flex: 1; border-radius: 2px 2px 0 0; min-width: 5px; cursor: default; transition: opacity 0.15s; }
 .occ-bar:hover { opacity: 0.7; }
-.occ-labels { display: flex; gap: 3px; margin-top: 4px; }
-.occ-label { flex: 1; font-size: 8px; color: var(--text4); text-align: center; min-width: 4px; }
+.occ-labels { display: flex; gap: 4px; margin-top: 8px; min-height: 18px; }
+.occ-label { flex: 1; font-size: 10px; line-height: 1.2; color: var(--text2); text-align: center; min-width: 5px; white-space: nowrap; }
+.occ-label.is-empty { color: transparent; }
 
 /* ─── EMAIL ─── */
 .email-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 6px; overflow: hidden; }
-.email-header { display: flex; align-items: center; gap: 10px; padding: 11px 14px; cursor: pointer; transition: background 0.12s; }
+.email-header { display: flex; align-items: center; gap: 8px; padding: 11px 14px; cursor: pointer; transition: background 0.12s; }
 .email-header:hover { background: var(--surface2); }
 .email-unread-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--azure); flex-shrink: 0; }
 .email-read-dot   { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
-.email-from    { font-size: 12px; font-weight: 600; color: var(--text); width: 180px; flex-shrink: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.email-subject { font-size: 12px; color: var(--text2); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.email-meta    { font-size: 11px; color: var(--text3); font-family: var(--mono); flex-shrink: 0; }
+.email-from    { font-size: 12px; font-weight: 600; color: var(--text); flex: 0 1 138px; max-width: 138px; min-width: 92px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.email-subject { font-size: 12px; color: var(--text2); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.email-meta    { font-size: 11px; color: var(--text3); font-family: var(--mono); flex-shrink: 0; margin-left: auto; }
+.email-res-main { flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(104px, 138px) auto minmax(0, 1fr); align-items: center; gap: 8px; }
+.email-res-main .email-from { max-width: none; min-width: 0; width: auto; }
+.email-res-main .badge { justify-self: start; }
 .email-body { display: none; padding: 14px 16px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text2); line-height: 1.7; white-space: pre-wrap; background: var(--surface2); }
 .email-body.open { display: block; }
+
+@media (max-width: 720px) {
+  .email-from { flex-basis: 110px; max-width: 110px; min-width: 80px; }
+  .email-res-main { grid-template-columns: minmax(90px, 110px) minmax(0, 1fr); row-gap: 3px; }
+  .email-res-main .email-subject { grid-column: 1 / -1; }
+  .email-meta { font-size: 10px; }
+  .occ-label { font-size: 9px; }
+  .occ-label:not(:first-child):not(:last-child) { visibility: hidden; }
+}
 
 /* ─── CALENDAR ─── */
 .cal-filter-bar { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }

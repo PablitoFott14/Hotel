@@ -33,6 +33,7 @@ function renderOverview(DATA) {
   resv.forEach(r => { bySrc[r.booking_source] = (bySrc[r.booking_source] || 0) + 1; });
 
   const recentEmail = [...emails].sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0)).slice(0, 5);
+  const occRange = occHist.length ? `${_apOccLabel(occHist[0].date)} - ${_apOccLabel(occHist[occHist.length - 1].date)}` : '';
 
   let html = '';
 
@@ -80,7 +81,7 @@ function renderOverview(DATA) {
 
     <div class="card">
       <h4>Occupancy History · ${occHist.length} days
-        <span style="float:right;font-size:10px;color:var(--text3);font-weight:400;text-transform:none">Click a bar to inspect</span>
+        ${occRange ? `<span style="float:right;font-size:10px;color:var(--text2);font-weight:500;text-transform:none">${occRange}</span>` : ''}
       </h4>
       <div class="occ-chart" id="occ-bars">`;
 
@@ -88,13 +89,16 @@ function renderOverview(DATA) {
   occHist.forEach(d => {
     const h   = Math.max(4, Math.round((d.occupancy_percent / maxOcc) * 60));
     const col = d.occupancy_percent >= 90 ? 'var(--emerald)' : d.occupancy_percent >= 70 ? 'var(--azure)' : 'var(--amber)';
-    html += `<div class="occ-bar" data-occ-date="${d.date}" style="height:${h}px;background:${col};cursor:pointer"
+    html += `<div class="occ-bar" data-occ-date="${d.date}" title="${escHtml(_apOccLabel(d.date))}: ${d.occupancy_percent}% occupancy" style="height:${h}px;background:${col};cursor:pointer"
       onclick="_apOccSelect('${d.date}')"></div>`;
   });
 
   html += `</div>
       <div class="occ-labels">`;
-  occHist.forEach(d => { html += `<div class="occ-label">${d.date.slice(5)}</div>`; });
+  occHist.forEach((d, i) => {
+    const showLabel = i === 0 || i === occHist.length - 1 || i % 7 === 0;
+    html += `<div class="occ-label${showLabel ? '' : ' is-empty'}">${showLabel ? escHtml(_apOccLabel(d.date)) : ''}</div>`;
+  });
   html += `</div>
       <div id="occ-detail" style="margin-top:12px;min-height:48px">
         <div style="font-size:11px;color:var(--text4);text-align:center;padding:12px 0">
@@ -104,7 +108,7 @@ function renderOverview(DATA) {
     </div>
 
     <div class="card">
-      <h4>Reservation Status <span style="float:right;font-size:10px;color:var(--text3);font-weight:400;text-transform:none">Click to filter</span></h4>
+      <h4>Reservation Status <span style="float:right;font-size:10px;color:var(--text2);font-weight:500;text-transform:none">${resv.length} reservations</span></h4>
       <div class="status-bars" style="margin-bottom:14px">`;
 
   const statuses = [
@@ -127,7 +131,7 @@ function renderOverview(DATA) {
 
   html += `</div>
       <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.6px;color:var(--text3);margin-bottom:8px">
-        Booking Sources <span style="font-weight:400;text-transform:none;letter-spacing:0">· click to filter</span>
+        Booking Sources
       </div>`;
 
   Object.entries(bySrc).sort((a, b) => b[1] - a[1]).forEach(([src, cnt]) => {
@@ -156,7 +160,7 @@ function renderOverview(DATA) {
         <div onclick="document.getElementById('${eid}').classList.toggle('open')"
           style="display:flex;gap:8px;align-items:center;padding:9px 0;cursor:pointer">
           <span style="width:6px;height:6px;border-radius:50%;background:${e.is_read ? 'transparent' : 'var(--azure)'};flex-shrink:0"></span>
-          <span style="font-size:12px;color:var(--text2);width:160px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.sender)}</span>
+          <span style="font-size:12px;color:var(--text2);flex:0 1 132px;max-width:132px;min-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.sender)}</span>
           <span style="font-size:12px;font-weight:${e.is_read ? '400' : '600'};color:var(--text);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.subject)}</span>
           <span style="font-size:10px;color:var(--text3);font-family:var(--mono);flex-shrink:0">${fmtTs(e.timestamp)}</span>
         </div>
@@ -178,6 +182,15 @@ function renderOverview(DATA) {
 }
 
 // ── Occupancy bar selection ────────────────
+function _apOccLabel(date) {
+  if (!date) return '';
+  try {
+    return new Date(date + 'T00:00:00Z').toLocaleDateString('en-US', { timeZone: AP_TZ, month: 'short', day: 'numeric' });
+  } catch {
+    return String(date).slice(5);
+  }
+}
+
 function _apOccSelect(date) {
   _occSelDate = date;
 
