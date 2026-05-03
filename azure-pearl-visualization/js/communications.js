@@ -1,54 +1,53 @@
-/* ═══════════════════════════════════════════
-   communications.js — Email inbox (email service)
-   + Reservation mail (hotel-management emails)
-═══════════════════════════════════════════ */
+/* Communications: email inbox and reservation mail */
 
-// ── EMAIL INBOX ──────────────────────────────
-let _emAll    = [];
+let _emAll = [];
 let _emFolder = 'INBOX';
 let _emSearch = '';
 
-// ── RESERVATION MAIL ─────────────────────────
-let _rmAll    = [];
+let _rmAll = [];
 let _rmSearch = '';
-let _rmPage   = 1;
+let _rmPage = 1;
 const RM_PAGE = 30;
 
 function renderCommunications(DATA) {
-  const emails   = (DATA.email || {}).emails || [];
-  const hm       = DATA.hotelMgmt || {};
-  const hmEmails = hm.emails       || [];
+  const emails = (DATA.email || {}).emails || [];
+  const hm = DATA.hotelMgmt || {};
+  const hmEmails = hm.emails || [];
 
-  // Email inbox setup — all 25 emails are INBOX, folder filter omitted
-  _emAll = [...emails].sort((a, b) => (b.timestamp||0) - (a.timestamp||0));
-  const unread = _emAll.filter(e => !e.is_read).length;
+  _emAll = [...emails].sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
 
   document.getElementById('comm-inbox').innerHTML = `
     <div class="explorer-bar">
-      <input id="em-search" class="ex-search" type="text" placeholder="Subject, sender, content…" />
+      <input id="em-search" class="ex-search" type="text" placeholder="Subject, sender, content..." />
       <span class="ex-count" id="em-count"></span>
     </div>
     <div id="em-list"></div>`;
 
-  document.getElementById('em-search').addEventListener('input', e => { _emSearch = e.target.value.toLowerCase(); _drawEmails(); });
+  document.getElementById('em-search').addEventListener('input', e => {
+    _emSearch = e.target.value.toLowerCase();
+    _drawEmails();
+  });
   _drawEmails();
 
-  // Reservation mail setup
   _rmAll = [...hmEmails].sort((a, b) => {
-    const da = a.date + ' ' + (a.time||'');
-    const db = b.date + ' ' + (b.time||'');
+    const da = a.date + ' ' + (a.time || '');
+    const db = b.date + ' ' + (b.time || '');
     return db.localeCompare(da);
   });
 
   document.getElementById('comm-resmail').innerHTML = `
     <div class="explorer-bar">
-      <input id="rm-search" class="ex-search" type="text" placeholder="Subject, guest name, confirmation…" />
+      <input id="rm-search" class="ex-search" type="text" placeholder="Subject, guest name, confirmation..." />
       <span class="ex-count" id="rm-count"></span>
     </div>
     <div id="rm-list"></div>
     <div class="pagination" id="rm-pag"></div>`;
 
-  document.getElementById('rm-search').addEventListener('input', e => { _rmSearch = e.target.value.toLowerCase(); _rmPage = 1; _drawResMail(); });
+  document.getElementById('rm-search').addEventListener('input', e => {
+    _rmSearch = e.target.value.toLowerCase();
+    _rmPage = 1;
+    _drawResMail();
+  });
   _drawResMail();
 }
 
@@ -56,20 +55,24 @@ function _drawEmails() {
   const filtered = _emAll.filter(e => {
     if (!_emSearch) return true;
     return (e.subject || '').toLowerCase().includes(_emSearch)
-      || (e.sender   || '').toLowerCase().includes(_emSearch)
-      || (e.content  || '').toLowerCase().includes(_emSearch)
+      || (e.sender || '').toLowerCase().includes(_emSearch)
+      || (e.content || '').toLowerCase().includes(_emSearch)
       || (e.recipients || []).some(r => r.toLowerCase().includes(_emSearch));
   });
 
   const countEl = document.getElementById('em-count');
   if (countEl) countEl.textContent = `${filtered.length} email${filtered.length !== 1 ? 's' : ''}`;
 
-  if (!filtered.length) { document.getElementById('em-list').innerHTML = '<div class="empty-state">No emails match.</div>'; return; }
+  if (!filtered.length) {
+    document.getElementById('em-list').innerHTML = '<div class="empty-state">No emails match.</div>';
+    return;
+  }
 
   let html = '';
   filtered.forEach(e => {
     const eid = 'em-' + escHtml(e.email_id);
-    const from = e.folder === 'SENT' ? (e.recipients||[]).join(', ') : e.sender;
+    const from = e.folder === 'SENT' ? (e.recipients || []).join(', ') : e.sender;
+    const cc = (e.cc || []).length ? ` | CC: ${escHtml(e.cc.join(', '))}` : '';
     html += `<div class="email-item">
       <div class="email-header" onclick="apToggleEmail('${escHtml(e.email_id)}')">
         <span class="${e.is_read ? 'email-read-dot' : 'email-unread-dot'}"></span>
@@ -77,10 +80,10 @@ function _drawEmails() {
         <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
         <span class="email-meta">${fmtTs(e.timestamp)}</span>
       </div>
-      <div class="email-body" id="${eid}"><div class="email-body-meta">
-        <span>${e.folder==='SENT'?'To:':'From:'} ${escHtml(from)}</span>
-        ${(e.cc||[]).length ? `<span>CC: ${escHtml(e.cc.join(', '))}</span>` : ''}
-      </div><div class="email-content">${escHtml(e.content || '')}</div></div>
+      <div class="email-body" id="${eid}">
+        <div class="email-body-meta">${e.folder === 'SENT' ? 'To:' : 'From:'} ${escHtml(from)}${cc}</div>
+        <div class="email-content">${escHtml(e.content || '')}</div>
+      </div>
     </div>`;
   });
 
@@ -105,6 +108,7 @@ function _drawResMail() {
 
   page.forEach(e => {
     const eid = 'rm-' + escHtml(e.email_id);
+    const sentAt = `${escHtml(e.date || '')}${e.time ? ' ' + escHtml(e.time) : ''}`;
     html += `<div class="email-item">
       <div class="email-header" onclick="apToggleEmail('${eid}')">
         <span class="email-read-dot"></span>
@@ -114,20 +118,11 @@ function _drawResMail() {
           <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
         </div>
         <span class="email-meta">${escHtml(e.date || '')}</span>
-<<<<<<< HEAD
-=======
       </div>
       <div class="email-body" id="${eid}">
-        <div style="font-size:10px;color:var(--text3);margin-bottom:8px">
-          From: ${escHtml(e.from_email)} · ${escHtml(e.date)}${e.time ? ' ' + escHtml(e.time) : ''}
-        </div>
-        ${escHtml(e.body || '')}
->>>>>>> dda688f639fe70eacdc7467753f08a5f74bb9150
+        <div class="email-body-meta">From: ${escHtml(e.from_email)} | ${sentAt}</div>
+        <div class="email-content">${escHtml(e.body || '')}</div>
       </div>
-      <div class="email-body" id="${eid}"><div class="email-body-meta">
-        <span>From: ${escHtml(e.from_email)}</span>
-        <span>${escHtml(e.date)}${e.time ? ' ' + escHtml(e.time) : ''}</span>
-      </div><div class="email-content">${escHtml(e.body || '')}</div></div>
     </div>`;
   });
 
@@ -137,7 +132,6 @@ function _drawResMail() {
 }
 
 function apToggleEmail(id) {
-  // id may be a full element ID or a raw email_id (legacy patterns)
   const el = document.getElementById(id)
     || document.getElementById('em-' + id)
     || document.getElementById('rm-' + id);
