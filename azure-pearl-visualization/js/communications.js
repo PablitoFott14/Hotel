@@ -114,6 +114,15 @@ function _drawResMail() {
           <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
         </div>
         <span class="email-meta">${escHtml(e.date || '')}</span>
+<<<<<<< HEAD
+=======
+      </div>
+      <div class="email-body" id="${eid}">
+        <div style="font-size:10px;color:var(--text3);margin-bottom:8px">
+          From: ${escHtml(e.from_email)} · ${escHtml(e.date)}${e.time ? ' ' + escHtml(e.time) : ''}
+        </div>
+        ${escHtml(e.body || '')}
+>>>>>>> dda688f639fe70eacdc7467753f08a5f74bb9150
       </div>
       <div class="email-body" id="${eid}"><div class="email-body-meta">
         <span>From: ${escHtml(e.from_email)}</span>

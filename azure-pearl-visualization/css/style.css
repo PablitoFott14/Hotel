@@ -237,7 +237,11 @@ tbody tr.clickable:hover td { background: var(--surface2); color: var(--text); }
 .email-res-main { flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(104px, 138px) auto minmax(0, 1fr); align-items: center; gap: 8px; }
 .email-res-main .email-from { max-width: none; min-width: 0; width: auto; }
 .email-res-main .badge { justify-self: start; }
+<<<<<<< HEAD
 .email-body { display: none; padding: 12px 14px 14px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text2); line-height: 1.55; background: var(--surface2); }
+=======
+.email-body { display: none; padding: 14px 16px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text2); line-height: 1.7; white-space: pre-wrap; background: var(--surface2); }
+>>>>>>> dda688f639fe70eacdc7467753f08a5f74bb9150
 .email-body.open { display: block; }
 .email-body-meta {
   display: inline-flex; flex-wrap: wrap; gap: 8px;
@@ -247,6 +251,15 @@ tbody tr.clickable:hover td { background: var(--surface2); color: var(--text); }
   font-size: 10px; line-height: 1.25;
 }
 .email-content { white-space: pre-wrap; color: var(--text2); line-height: 1.65; }
+
+@media (max-width: 720px) {
+  .email-from { flex-basis: 110px; max-width: 110px; min-width: 80px; }
+  .email-res-main { grid-template-columns: minmax(90px, 110px) minmax(0, 1fr); row-gap: 3px; }
+  .email-res-main .email-subject { grid-column: 1 / -1; }
+  .email-meta { font-size: 10px; }
+  .occ-label { font-size: 9px; }
+  .occ-label:not(:first-child):not(:last-child) { visibility: hidden; }
+}
 
 @media (max-width: 720px) {
   .email-from { flex-basis: 110px; max-width: 110px; min-width: 80px; }
