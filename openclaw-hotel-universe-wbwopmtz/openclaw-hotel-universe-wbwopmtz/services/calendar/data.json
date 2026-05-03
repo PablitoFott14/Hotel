@@ -1,0 +1,1636 @@
+{
+  "events": [
+    {
+      "event_id": "63aa8facf15c4a8eb3bb33dd315830ed",
+      "title": "Check-In: Brian Clark (APH-2401)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Brian Clark\nConfirmation: APH-2401\nRoom: 101 (Standard King)\nRate: $189/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Extra towels",
+      "location": "Room 101",
+      "attendees": [
+        "Brian Clark"
+      ]
+    },
+    {
+      "event_id": "28a3be5dad8b41f3ac15c03b82d37f66",
+      "title": "Check-Out: Brian Clark (APH-2401)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Brian Clark\nConfirmation: APH-2401\nRoom: 101 (Standard King)\nTotal: $945\nStatus: Checked-In",
+      "location": "Room 101",
+      "attendees": [
+        "Brian Clark"
+      ]
+    },
+    {
+      "event_id": "39af2f08fe374fb4b3e1fbf76f26e28c",
+      "title": "Check-In: Sarah Mitchell (APH-2402)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Sarah Mitchell\nConfirmation: APH-2402\nRoom: 102 (Standard Double)\nRate: $179/night\nStatus: Checked-In\nBooking Source: Booking.com",
+      "location": "Room 102",
+      "attendees": [
+        "Sarah Mitchell"
+      ]
+    },
+    {
+      "event_id": "b3d59aefdc624ea39bc85d2d2dbbddac",
+      "title": "Check-Out: Sarah Mitchell (APH-2402)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Sarah Mitchell\nConfirmation: APH-2402\nRoom: 102 (Standard Double)\nTotal: $1611\nStatus: Checked-In",
+      "location": "Room 102",
+      "attendees": [
+        "Sarah Mitchell"
+      ]
+    },
+    {
+      "event_id": "d84b1853356e453a84da215c2608f489",
+      "title": "Check-In: Helen Reed (APH-2403)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Helen Reed\nConfirmation: APH-2403\nRoom: 104 (Standard Double)\nRate: $179/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Quiet room",
+      "location": "Room 104",
+      "attendees": [
+        "Helen Reed"
+      ]
+    },
+    {
+      "event_id": "aa624834b7ce4d038d9cad980b191a3f",
+      "title": "Check-Out: Helen Reed (APH-2403)",
+      "start_datetime": 1772775000.0,
+      "end_datetime": 1772778600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Helen Reed\nConfirmation: APH-2403\nRoom: 104 (Standard Double)\nTotal: $1432\nStatus: Checked-In",
+      "location": "Room 104",
+      "attendees": [
+        "Helen Reed"
+      ]
+    },
+    {
+      "event_id": "89151f3ce8cf4f66ab09e5f36db998f8",
+      "title": "Check-In: Sandra Nelson (APH-2404)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Sandra Nelson\nConfirmation: APH-2404\nRoom: 105 (Deluxe King)\nRate: $249/night\nStatus: Checked-In\nBooking Source: Direct",
+      "location": "Room 105",
+      "attendees": [
+        "Sandra Nelson"
+      ]
+    },
+    {
+      "event_id": "9850c48d547a48ecb30fc800278ec221",
+      "title": "Check-Out: Sandra Nelson (APH-2404)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Sandra Nelson\nConfirmation: APH-2404\nRoom: 105 (Deluxe King)\nTotal: $1992\nStatus: Checked-In",
+      "location": "Room 105",
+      "attendees": [
+        "Sandra Nelson"
+      ]
+    },
+    {
+      "event_id": "0c1564e0185c454897a4ecbfe80a2794",
+      "title": "Check-In: Jessica Park (APH-2405)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Jessica Park\nConfirmation: APH-2405\nRoom: 106 (Deluxe King)\nRate: $249/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Early check-in",
+      "location": "Room 106",
+      "attendees": [
+        "Jessica Park"
+      ]
+    },
+    {
+      "event_id": "b6938233388c4daf887144a1b810971f",
+      "title": "Check-Out: Jessica Park (APH-2405)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Jessica Park\nConfirmation: APH-2405\nRoom: 106 (Deluxe King)\nTotal: $2241\nStatus: Checked-In",
+      "location": "Room 106",
+      "attendees": [
+        "Jessica Park"
+      ]
+    },
+    {
+      "event_id": "7eb08e80be7a49a7930627b3a47f29f4",
+      "title": "Check-In: Timothy Baker (APH-2406)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Timothy Baker\nConfirmation: APH-2406\nRoom: 108 (Standard Double)\nRate: $179/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Early check-in",
+      "location": "Room 108",
+      "attendees": [
+        "Timothy Baker"
+      ]
+    },
+    {
+      "event_id": "b6d6c43eebee442d9a4d9c98402f1828",
+      "title": "Check-Out: Timothy Baker (APH-2406)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Timothy Baker\nConfirmation: APH-2406\nRoom: 108 (Standard Double)\nTotal: $1074\nStatus: Checked-In",
+      "location": "Room 108",
+      "attendees": [
+        "Timothy Baker"
+      ]
+    },
+    {
+      "event_id": "211dac363f704b0189460f76f8253dce",
+      "title": "Check-In: Robert Anderson (APH-2407)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Robert Anderson\nConfirmation: APH-2407\nRoom: 109 (Standard King)\nRate: $189/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Extra towels",
+      "location": "Room 109",
+      "attendees": [
+        "Robert Anderson"
+      ]
+    },
+    {
+      "event_id": "3dc10e772d9a4f6880bccce41459b25c",
+      "title": "Check-Out: Robert Anderson (APH-2407)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Robert Anderson\nConfirmation: APH-2407\nRoom: 109 (Standard King)\nTotal: $1512\nStatus: Checked-In",
+      "location": "Room 109",
+      "attendees": [
+        "Robert Anderson"
+      ]
+    },
+    {
+      "event_id": "222be3eec0454d2aa4b90e26f8e45065",
+      "title": "Check-In: Nicole Harris (APH-2408)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Nicole Harris\nConfirmation: APH-2408\nRoom: 110 (Standard Double)\nRate: $179/night\nStatus: Checked-In\nBooking Source: Hotels.com",
+      "location": "Room 110",
+      "attendees": [
+        "Nicole Harris"
+      ]
+    },
+    {
+      "event_id": "c21060be4ca64a62a5cfd968fd86cc8e",
+      "title": "Check-Out: Nicole Harris (APH-2408)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Nicole Harris\nConfirmation: APH-2408\nRoom: 110 (Standard Double)\nTotal: $1432\nStatus: Checked-In",
+      "location": "Room 110",
+      "attendees": [
+        "Nicole Harris"
+      ]
+    },
+    {
+      "event_id": "6104f57fe4044b838fc2827baabb062f",
+      "title": "Check-In: Mark Allen (APH-2409)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Mark Allen\nConfirmation: APH-2409\nRoom: 201 (Deluxe King)\nRate: $249/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Quiet room",
+      "location": "Room 201",
+      "attendees": [
+        "Mark Allen"
+      ]
+    },
+    {
+      "event_id": "502d69de4b3e4d3abafa8e55e9dfa0b6",
+      "title": "Check-Out: Mark Allen (APH-2409)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Mark Allen\nConfirmation: APH-2409\nRoom: 201 (Deluxe King)\nTotal: $1245\nStatus: Checked-In",
+      "location": "Room 201",
+      "attendees": [
+        "Mark Allen"
+      ]
+    },
+    {
+      "event_id": "22929976706a4bde93eaa3883abaef01",
+      "title": "Check-In: Rachel Johnson (APH-2410)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Rachel Johnson\nConfirmation: APH-2410\nRoom: 202 (Deluxe Double)\nRate: $239/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Extra towels",
+      "location": "Room 202",
+      "attendees": [
+        "Rachel Johnson"
+      ]
+    },
+    {
+      "event_id": "b3017605fc4844d8840fd22cc85abce5",
+      "title": "Check-Out: Rachel Johnson (APH-2410)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Rachel Johnson\nConfirmation: APH-2410\nRoom: 202 (Deluxe Double)\nTotal: $1673\nStatus: Checked-In",
+      "location": "Room 202",
+      "attendees": [
+        "Rachel Johnson"
+      ]
+    },
+    {
+      "event_id": "7a29337548a0498bb97da9acb85faee1",
+      "title": "Check-In: Frank Murphy (APH-2411)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Frank Murphy\nConfirmation: APH-2411\nRoom: 204 (Deluxe Double)\nRate: $239/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Quiet room",
+      "location": "Room 204",
+      "attendees": [
+        "Frank Murphy"
+      ]
+    },
+    {
+      "event_id": "b4e4892eef97423e9aeb219d545ead97",
+      "title": "Check-Out: Frank Murphy (APH-2411)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Frank Murphy\nConfirmation: APH-2411\nRoom: 204 (Deluxe Double)\nTotal: $717\nStatus: Checked-In",
+      "location": "Room 204",
+      "attendees": [
+        "Frank Murphy"
+      ]
+    },
+    {
+      "event_id": "62c6ec92152e4403afd777bbc2c2b7d4",
+      "title": "Check-In: Dennis Cook (APH-2412)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Dennis Cook\nConfirmation: APH-2412\nRoom: 205 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Extra towels",
+      "location": "Room 205",
+      "attendees": [
+        "Dennis Cook"
+      ]
+    },
+    {
+      "event_id": "fc1927909a734942bce1410dd6ebc4ba",
+      "title": "Check-Out: Dennis Cook (APH-2412)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Dennis Cook\nConfirmation: APH-2412\nRoom: 205 (Ocean View King)\nTotal: $1276\nStatus: Checked-In",
+      "location": "Room 205",
+      "attendees": [
+        "Dennis Cook"
+      ]
+    },
+    {
+      "event_id": "72448ada3bbf4dff84f3a7dcc15dafd6",
+      "title": "Check-In: Cynthia Stewart (APH-2413)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Cynthia Stewart\nConfirmation: APH-2413\nRoom: 206 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Late checkout",
+      "location": "Room 206",
+      "attendees": [
+        "Cynthia Stewart"
+      ]
+    },
+    {
+      "event_id": "26557c01fb1d4a579a16e752eb63bd4d",
+      "title": "Check-Out: Cynthia Stewart (APH-2413)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Cynthia Stewart\nConfirmation: APH-2413\nRoom: 206 (Ocean View King)\nTotal: $1914\nStatus: Checked-In",
+      "location": "Room 206",
+      "attendees": [
+        "Cynthia Stewart"
+      ]
+    },
+    {
+      "event_id": "1c275efd938a44f6938bce99452f44f4",
+      "title": "Check-In: Eric Evans (APH-2414)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Eric Evans\nConfirmation: APH-2414\nRoom: 207 (Deluxe King)\nRate: $249/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Extra towels",
+      "location": "Room 207",
+      "attendees": [
+        "Eric Evans"
+      ]
+    },
+    {
+      "event_id": "97656ae50b8f45e99af4349f50471adb",
+      "title": "Check-Out: Eric Evans (APH-2414)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Eric Evans\nConfirmation: APH-2414\nRoom: 207 (Deluxe King)\nTotal: $1743\nStatus: Checked-In",
+      "location": "Room 207",
+      "attendees": [
+        "Eric Evans"
+      ]
+    },
+    {
+      "event_id": "c2691c8064e94d8994216da277ea506e",
+      "title": "Check-In: Karen Scott (APH-2415)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Karen Scott\nConfirmation: APH-2415\nRoom: 209 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Extra towels",
+      "location": "Room 209",
+      "attendees": [
+        "Karen Scott"
+      ]
+    },
+    {
+      "event_id": "74ebbac828734db8b8a77c5ed681e591",
+      "title": "Check-Out: Karen Scott (APH-2415)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Karen Scott\nConfirmation: APH-2415\nRoom: 209 (Ocean View King)\nTotal: $2552\nStatus: Checked-In",
+      "location": "Room 209",
+      "attendees": [
+        "Karen Scott"
+      ]
+    },
+    {
+      "event_id": "bf18f92a1afe44af90a1a956ecb42ec5",
+      "title": "Check-In: Kathleen Morris (APH-2416)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Kathleen Morris\nConfirmation: APH-2416\nRoom: 210 (Deluxe King)\nRate: $249/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Late checkout",
+      "location": "Room 210",
+      "attendees": [
+        "Kathleen Morris"
+      ]
+    },
+    {
+      "event_id": "0fd748ad1e78475c86a7448860a8737f",
+      "title": "Check-Out: Kathleen Morris (APH-2416)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Kathleen Morris\nConfirmation: APH-2416\nRoom: 210 (Deluxe King)\nTotal: $1743\nStatus: Checked-In",
+      "location": "Room 210",
+      "attendees": [
+        "Kathleen Morris"
+      ]
+    },
+    {
+      "event_id": "4f8bb72a629f47439387717466c6e05a",
+      "title": "Check-In: Peter Rogers (APH-2417)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Peter Rogers\nConfirmation: APH-2417\nRoom: 301 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Direct",
+      "location": "Room 301",
+      "attendees": [
+        "Peter Rogers"
+      ]
+    },
+    {
+      "event_id": "9fd669213778424e84e70daac10a5ef8",
+      "title": "Check-Out: Peter Rogers (APH-2417)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Peter Rogers\nConfirmation: APH-2417\nRoom: 301 (Ocean View King)\nTotal: $1914\nStatus: Checked-In",
+      "location": "Room 301",
+      "attendees": [
+        "Peter Rogers"
+      ]
+    },
+    {
+      "event_id": "bc49eeff63974f0783decc350f6d9a9e",
+      "title": "Check-In: Steven Walker (APH-2418)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Steven Walker\nConfirmation: APH-2418\nRoom: 302 (Ocean View Double)\nRate: $309/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Extra towels",
+      "location": "Room 302",
+      "attendees": [
+        "Steven Walker"
+      ]
+    },
+    {
+      "event_id": "1c9e3c4aa8584ba3bd127f0166a33116",
+      "title": "Check-Out: Steven Walker (APH-2418)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Steven Walker\nConfirmation: APH-2418\nRoom: 302 (Ocean View Double)\nTotal: $1236\nStatus: Checked-In",
+      "location": "Room 302",
+      "attendees": [
+        "Steven Walker"
+      ]
+    },
+    {
+      "event_id": "a80b7164f98b497b8ad6843fd31cdce1",
+      "title": "Check-In: Jennifer Davis (APH-2419)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Jennifer Davis\nConfirmation: APH-2419\nRoom: 303 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Late checkout",
+      "location": "Room 303",
+      "attendees": [
+        "Jennifer Davis"
+      ]
+    },
+    {
+      "event_id": "7429b39f85174690848d8a9f62298a16",
+      "title": "Check-Out: Jennifer Davis (APH-2419)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Jennifer Davis\nConfirmation: APH-2419\nRoom: 303 (Ocean View King)\nTotal: $3190\nStatus: Checked-In",
+      "location": "Room 303",
+      "attendees": [
+        "Jennifer Davis"
+      ]
+    },
+    {
+      "event_id": "6b42aa81468546958182ba75d9074010",
+      "title": "Check-In: Christopher Brown (APH-2420)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Christopher Brown\nConfirmation: APH-2420\nRoom: 305 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Extra towels",
+      "location": "Room 305",
+      "attendees": [
+        "Christopher Brown"
+      ]
+    },
+    {
+      "event_id": "4c6548f6d2914e5ab9978763c64fd963",
+      "title": "Check-Out: Christopher Brown (APH-2420)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Christopher Brown\nConfirmation: APH-2420\nRoom: 305 (Junior Suite)\nTotal: $3591\nStatus: Checked-In",
+      "location": "Room 305",
+      "attendees": [
+        "Christopher Brown"
+      ]
+    },
+    {
+      "event_id": "aeeb48aa664048bd94e30bc7ab6a2a25",
+      "title": "Check-In: David Chen (APH-2421)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: David Chen\nConfirmation: APH-2421\nRoom: 306 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Quiet room",
+      "location": "Room 306",
+      "attendees": [
+        "David Chen"
+      ]
+    },
+    {
+      "event_id": "955d008aa8594b4189e28a13d6774dce",
+      "title": "Check-Out: David Chen (APH-2421)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: David Chen\nConfirmation: APH-2421\nRoom: 306 (Ocean View King)\nTotal: $2233\nStatus: Checked-In",
+      "location": "Room 306",
+      "attendees": [
+        "David Chen"
+      ]
+    },
+    {
+      "event_id": "b6031fabb6434607820bd889dff9e8bf",
+      "title": "Check-In: Jason Carter (APH-2422)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Jason Carter\nConfirmation: APH-2422\nRoom: 307 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Expedia",
+      "location": "Room 307",
+      "attendees": [
+        "Jason Carter"
+      ]
+    },
+    {
+      "event_id": "af8308edb6934e50a53e672f5b6de3d7",
+      "title": "Check-Out: Jason Carter (APH-2422)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Jason Carter\nConfirmation: APH-2422\nRoom: 307 (Ocean View King)\nTotal: $1276\nStatus: Checked-In",
+      "location": "Room 307",
+      "attendees": [
+        "Jason Carter"
+      ]
+    },
+    {
+      "event_id": "d5a361d22fa9415b9e63042ace7c1069",
+      "title": "Check-In: Gerald Howard (APH-2423)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Gerald Howard\nConfirmation: APH-2423\nRoom: 308 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Expedia",
+      "location": "Room 308",
+      "attendees": [
+        "Gerald Howard"
+      ]
+    },
+    {
+      "event_id": "74f940c22fd843d4aed73ab0214e58f3",
+      "title": "Check-Out: Gerald Howard (APH-2423)",
+      "start_datetime": 1772775000.0,
+      "end_datetime": 1772778600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Gerald Howard\nConfirmation: APH-2423\nRoom: 308 (Junior Suite)\nTotal: $3192\nStatus: Checked-In",
+      "location": "Room 308",
+      "attendees": [
+        "Gerald Howard"
+      ]
+    },
+    {
+      "event_id": "5189bfeac9494349abfd8b8389b0f45c",
+      "title": "Check-In: James Lee (APH-2424)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: James Lee\nConfirmation: APH-2424\nRoom: 309 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Extra towels",
+      "location": "Room 309",
+      "attendees": [
+        "James Lee"
+      ]
+    },
+    {
+      "event_id": "4b1cc5118cd04bd59746879cc7e36091",
+      "title": "Check-Out: James Lee (APH-2424)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: James Lee\nConfirmation: APH-2424\nRoom: 309 (Ocean View King)\nTotal: $1595\nStatus: Checked-In",
+      "location": "Room 309",
+      "attendees": [
+        "James Lee"
+      ]
+    },
+    {
+      "event_id": "8e598b1785e14fb1b42391b4d61b8d50",
+      "title": "Check-In: Arthur Richardson (APH-2425)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Arthur Richardson\nConfirmation: APH-2425\nRoom: 310 (Ocean View Double)\nRate: $309/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Extra towels",
+      "location": "Room 310",
+      "attendees": [
+        "Arthur Richardson"
+      ]
+    },
+    {
+      "event_id": "778114a642494ce7b14e27c70dc9fb34",
+      "title": "Check-Out: Arthur Richardson (APH-2425)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Arthur Richardson\nConfirmation: APH-2425\nRoom: 310 (Ocean View Double)\nTotal: $1854\nStatus: Checked-In",
+      "location": "Room 310",
+      "attendees": [
+        "Arthur Richardson"
+      ]
+    },
+    {
+      "event_id": "99212aa509634bfd99c0433a629cf998",
+      "title": "Check-In: Jeffrey Collins (APH-2426)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Jeffrey Collins\nConfirmation: APH-2426\nRoom: 401 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Late checkout",
+      "location": "Room 401",
+      "attendees": [
+        "Jeffrey Collins"
+      ]
+    },
+    {
+      "event_id": "a5e72cba2c1d4e7c8a691094477bf1fb",
+      "title": "Check-Out: Jeffrey Collins (APH-2426)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Jeffrey Collins\nConfirmation: APH-2426\nRoom: 401 (Junior Suite)\nTotal: $1596\nStatus: Checked-In",
+      "location": "Room 401",
+      "attendees": [
+        "Jeffrey Collins"
+      ]
+    },
+    {
+      "event_id": "188b098239ee45ada17ffcdb9612739e",
+      "title": "Check-In: Dorothy Bailey (APH-2427)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Dorothy Bailey\nConfirmation: APH-2427\nRoom: 402 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Late checkout",
+      "location": "Room 402",
+      "attendees": [
+        "Dorothy Bailey"
+      ]
+    },
+    {
+      "event_id": "fe1e0fd4c52546689b636ff026b76ac4",
+      "title": "Check-Out: Dorothy Bailey (APH-2427)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Dorothy Bailey\nConfirmation: APH-2427\nRoom: 402 (Junior Suite)\nTotal: $1596\nStatus: Checked-In",
+      "location": "Room 402",
+      "attendees": [
+        "Dorothy Bailey"
+      ]
+    },
+    {
+      "event_id": "96e909cb1a9d474fa95424b33a3d57b4",
+      "title": "Check-In: Betty Bell (APH-2428)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Betty Bell\nConfirmation: APH-2428\nRoom: 403 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Quiet room",
+      "location": "Room 403",
+      "attendees": [
+        "Betty Bell"
+      ]
+    },
+    {
+      "event_id": "05851f35bdac4b8facb55f9d2fe37722",
+      "title": "Check-Out: Betty Bell (APH-2428)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Betty Bell\nConfirmation: APH-2428\nRoom: 403 (Ocean View King)\nTotal: $1914\nStatus: Checked-In",
+      "location": "Room 403",
+      "attendees": [
+        "Betty Bell"
+      ]
+    },
+    {
+      "event_id": "a7507bf7f80a4eaa85292e7d3551c206",
+      "title": "Check-In: Gregory Green (APH-2429)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Gregory Green\nConfirmation: APH-2429\nRoom: 404 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Extra towels",
+      "location": "Room 404",
+      "attendees": [
+        "Gregory Green"
+      ]
+    },
+    {
+      "event_id": "25b5903b9b36415685013f225e2884ec",
+      "title": "Check-Out: Gregory Green (APH-2429)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Gregory Green\nConfirmation: APH-2429\nRoom: 404 (Ocean View King)\nTotal: $3190\nStatus: Checked-In",
+      "location": "Room 404",
+      "attendees": [
+        "Gregory Green"
+      ]
+    },
+    {
+      "event_id": "762b3bf755af42e08f91caee93e9273a",
+      "title": "Check-In: Deborah Parker (APH-2430)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Deborah Parker\nConfirmation: APH-2430\nRoom: 406 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Early check-in",
+      "location": "Room 406",
+      "attendees": [
+        "Deborah Parker"
+      ]
+    },
+    {
+      "event_id": "fce4bbfa82294f6d84bd35fc8ddc2b94",
+      "title": "Check-Out: Deborah Parker (APH-2430)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Deborah Parker\nConfirmation: APH-2430\nRoom: 406 (Junior Suite)\nTotal: $2394\nStatus: Checked-In",
+      "location": "Room 406",
+      "attendees": [
+        "Deborah Parker"
+      ]
+    },
+    {
+      "event_id": "6c74a8bf9d0a4ec3b1908240263b8c47",
+      "title": "Check-In: Kevin White (APH-2431)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Kevin White\nConfirmation: APH-2431\nRoom: 407 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Late checkout",
+      "location": "Room 407",
+      "attendees": [
+        "Kevin White"
+      ]
+    },
+    {
+      "event_id": "02b8143e678e4daebc196e8381109679",
+      "title": "Check-Out: Kevin White (APH-2431)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Kevin White\nConfirmation: APH-2431\nRoom: 407 (Junior Suite)\nTotal: $2394\nStatus: Checked-In",
+      "location": "Room 407",
+      "attendees": [
+        "Kevin White"
+      ]
+    },
+    {
+      "event_id": "71fcd95797344686997f3f00df97d2a3",
+      "title": "Check-In: Gary Sanchez (APH-2432)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Gary Sanchez\nConfirmation: APH-2432\nRoom: 409 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Quiet room",
+      "location": "Room 409",
+      "attendees": [
+        "Gary Sanchez"
+      ]
+    },
+    {
+      "event_id": "65ea9b1534b14612b9a6a8ae8e5fc67e",
+      "title": "Check-Out: Gary Sanchez (APH-2432)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Gary Sanchez\nConfirmation: APH-2432\nRoom: 409 (Junior Suite)\nTotal: $2793\nStatus: Checked-In",
+      "location": "Room 409",
+      "attendees": [
+        "Gary Sanchez"
+      ]
+    },
+    {
+      "event_id": "e5fc0965e492493ebbf32319842099ac",
+      "title": "Check-In: Amanda Williams (APH-2433)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Amanda Williams\nConfirmation: APH-2433\nRoom: 410 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Quiet room",
+      "location": "Room 410",
+      "attendees": [
+        "Amanda Williams"
+      ]
+    },
+    {
+      "event_id": "e45b9bcb06da4ac7b4323479824f36d3",
+      "title": "Check-Out: Amanda Williams (APH-2433)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Amanda Williams\nConfirmation: APH-2433\nRoom: 410 (Executive Suite)\nTotal: $3294\nStatus: Checked-In",
+      "location": "Room 410",
+      "attendees": [
+        "Amanda Williams"
+      ]
+    },
+    {
+      "event_id": "1efd1829630249548fb1114cd6055289",
+      "title": "Check-In: Carolyn Cooper (APH-2434)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Carolyn Cooper\nConfirmation: APH-2434\nRoom: 501 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Early check-in",
+      "location": "Room 501",
+      "attendees": [
+        "Carolyn Cooper"
+      ]
+    },
+    {
+      "event_id": "afbc0dc7127f42e0a2f4da52042b448d",
+      "title": "Check-Out: Carolyn Cooper (APH-2434)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Carolyn Cooper\nConfirmation: APH-2434\nRoom: 501 (Executive Suite)\nTotal: $3294\nStatus: Checked-In",
+      "location": "Room 501",
+      "attendees": [
+        "Carolyn Cooper"
+      ]
+    },
+    {
+      "event_id": "8c797a1236254ccda0f4afe3fbac1787",
+      "title": "Check-In: Thomas Moore (APH-2435)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Thomas Moore\nConfirmation: APH-2435\nRoom: 502 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Early check-in",
+      "location": "Room 502",
+      "attendees": [
+        "Thomas Moore"
+      ]
+    },
+    {
+      "event_id": "5ebc854d5acb4d80ab745c719752d273",
+      "title": "Check-Out: Thomas Moore (APH-2435)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Thomas Moore\nConfirmation: APH-2435\nRoom: 502 (Executive Suite)\nTotal: $2745\nStatus: Checked-In",
+      "location": "Room 502",
+      "attendees": [
+        "Thomas Moore"
+      ]
+    },
+    {
+      "event_id": "c473cbd2094d4f66af3b67519839471c",
+      "title": "Check-In: Patricia Adams (APH-2436)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Patricia Adams\nConfirmation: APH-2436\nRoom: 503 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Quiet room",
+      "location": "Room 503",
+      "attendees": [
+        "Patricia Adams"
+      ]
+    },
+    {
+      "event_id": "64930cb7d31b43f18dc53fed481d9fc7",
+      "title": "Check-Out: Patricia Adams (APH-2436)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Patricia Adams\nConfirmation: APH-2436\nRoom: 503 (Junior Suite)\nTotal: $2793\nStatus: Checked-In",
+      "location": "Room 503",
+      "attendees": [
+        "Patricia Adams"
+      ]
+    },
+    {
+      "event_id": "ad3380695e3745b18207d506a919820b",
+      "title": "Check-In: Angela Young (APH-2437)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Angela Young\nConfirmation: APH-2437\nRoom: 504 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Direct",
+      "location": "Room 504",
+      "attendees": [
+        "Angela Young"
+      ]
+    },
+    {
+      "event_id": "b1fbf202e9564033b69c2a78920c4bc0",
+      "title": "Check-Out: Angela Young (APH-2437)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Angela Young\nConfirmation: APH-2437\nRoom: 504 (Junior Suite)\nTotal: $3591\nStatus: Checked-In",
+      "location": "Room 504",
+      "attendees": [
+        "Angela Young"
+      ]
+    },
+    {
+      "event_id": "4f2b6b341cd54ce6982a20b79bad6f8a",
+      "title": "Check-In: Sharon Turner (APH-2438)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Sharon Turner\nConfirmation: APH-2438\nRoom: 505 (Presidential Suite)\nRate: $899/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Early check-in",
+      "location": "Room 505",
+      "attendees": [
+        "Sharon Turner"
+      ]
+    },
+    {
+      "event_id": "96ce6ca23ab54198b617834d43fdff8c",
+      "title": "Check-Out: Sharon Turner (APH-2438)",
+      "start_datetime": 1772775000.0,
+      "end_datetime": 1772778600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Sharon Turner\nConfirmation: APH-2438\nRoom: 505 (Presidential Suite)\nTotal: $5394\nStatus: Checked-In",
+      "location": "Room 505",
+      "attendees": [
+        "Sharon Turner"
+      ]
+    },
+    {
+      "event_id": "baa8bb2855ff4d0893bd896ca1183b8a",
+      "title": "Check-In: Paul Wright (APH-2439)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Paul Wright\nConfirmation: APH-2439\nRoom: 507 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Late checkout",
+      "location": "Room 507",
+      "attendees": [
+        "Paul Wright"
+      ]
+    },
+    {
+      "event_id": "e3cd62b813284aec8b4f32227c76b66f",
+      "title": "Check-Out: Paul Wright (APH-2439)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Paul Wright\nConfirmation: APH-2439\nRoom: 507 (Executive Suite)\nTotal: $4941\nStatus: Checked-In",
+      "location": "Room 507",
+      "attendees": [
+        "Paul Wright"
+      ]
+    },
+    {
+      "event_id": "71c3fee14d694d40b69c6f175b9f9864",
+      "title": "Check-In: Michelle Lewis (APH-2440)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Michelle Lewis\nConfirmation: APH-2440\nRoom: 508 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Hotels.com",
+      "location": "Room 508",
+      "attendees": [
+        "Michelle Lewis"
+      ]
+    },
+    {
+      "event_id": "d8518923a1a24155a5e2653d59847260",
+      "title": "Check-Out: Michelle Lewis (APH-2440)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Michelle Lewis\nConfirmation: APH-2440\nRoom: 508 (Junior Suite)\nTotal: $2793\nStatus: Checked-In",
+      "location": "Room 508",
+      "attendees": [
+        "Michelle Lewis"
+      ]
+    },
+    {
+      "event_id": "d5886ff7884945ffbe299be05736c96c",
+      "title": "Check-In: Emily Rodriguez (APH-2441)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Emily Rodriguez\nConfirmation: APH-2441\nRoom: 509 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Hotels.com",
+      "location": "Room 509",
+      "attendees": [
+        "Emily Rodriguez"
+      ]
+    },
+    {
+      "event_id": "81124675769d45f5918cc0e80263154c",
+      "title": "Check-Out: Emily Rodriguez (APH-2441)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Emily Rodriguez\nConfirmation: APH-2441\nRoom: 509 (Executive Suite)\nTotal: $4392\nStatus: Checked-In",
+      "location": "Room 509",
+      "attendees": [
+        "Emily Rodriguez"
+      ]
+    },
+    {
+      "event_id": "e05ccfbd856b42a6bc649d809a8d988f",
+      "title": "Check-In: Melissa Phillips (APH-2442)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Melissa Phillips\nConfirmation: APH-2442\nRoom: 510 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Hotels.com\nSpecial Requests: Quiet room",
+      "location": "Room 510",
+      "attendees": [
+        "Melissa Phillips"
+      ]
+    },
+    {
+      "event_id": "621f7858835643bf91afbb2b4ede9c3e",
+      "title": "Check-Out: Melissa Phillips (APH-2442)",
+      "start_datetime": 1772602200.0,
+      "end_datetime": 1772605800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Melissa Phillips\nConfirmation: APH-2442\nRoom: 510 (Executive Suite)\nTotal: $3294\nStatus: Checked-In",
+      "location": "Room 510",
+      "attendees": [
+        "Melissa Phillips"
+      ]
+    },
+    {
+      "event_id": "db5e1ecb925b42ab9bb792393fc6272d",
+      "title": "Check-In: Raymond Rivera (APH-2443)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Raymond Rivera\nConfirmation: APH-2443\nRoom: 601 (Executive Suite)\nRate: $549/night\nStatus: Checked-In\nBooking Source: Booking.com",
+      "location": "Room 601",
+      "attendees": [
+        "Raymond Rivera"
+      ]
+    },
+    {
+      "event_id": "c3b5c55cdafa451f8897d902e1144102",
+      "title": "Check-Out: Raymond Rivera (APH-2443)",
+      "start_datetime": 1772775000.0,
+      "end_datetime": 1772778600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Raymond Rivera\nConfirmation: APH-2443\nRoom: 601 (Executive Suite)\nTotal: $4392\nStatus: Checked-In",
+      "location": "Room 601",
+      "attendees": [
+        "Raymond Rivera"
+      ]
+    },
+    {
+      "event_id": "24d6c2c5b8c742bfb52f755918c75258",
+      "title": "Check-In: Michael Thompson (APH-2444)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Michael Thompson\nConfirmation: APH-2444\nRoom: 602 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Extra towels",
+      "location": "Room 602",
+      "attendees": [
+        "Michael Thompson"
+      ]
+    },
+    {
+      "event_id": "856ff613a581496cbd7eeea452f8f1f2",
+      "title": "Check-Out: Michael Thompson (APH-2444)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Michael Thompson\nConfirmation: APH-2444\nRoom: 602 (Junior Suite)\nTotal: $3591\nStatus: Checked-In",
+      "location": "Room 602",
+      "attendees": [
+        "Michael Thompson"
+      ]
+    },
+    {
+      "event_id": "cede518873bd493484ea29d903a08e15",
+      "title": "Check-In: Ryan Campbell (APH-2445)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Ryan Campbell\nConfirmation: APH-2445\nRoom: 603 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Extra towels",
+      "location": "Room 603",
+      "attendees": [
+        "Ryan Campbell"
+      ]
+    },
+    {
+      "event_id": "24b3cc1df2104230b5c6765ef235e6bc",
+      "title": "Check-Out: Ryan Campbell (APH-2445)",
+      "start_datetime": 1772688600.0,
+      "end_datetime": 1772692200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Ryan Campbell\nConfirmation: APH-2445\nRoom: 603 (Junior Suite)\nTotal: $2394\nStatus: Checked-In",
+      "location": "Room 603",
+      "attendees": [
+        "Ryan Campbell"
+      ]
+    },
+    {
+      "event_id": "aeee48f477684b9d8130a2a88204cdfe",
+      "title": "Check-In: Daniel Martinez (APH-2446)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Daniel Martinez\nConfirmation: APH-2446\nRoom: 604 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Direct",
+      "location": "Room 604",
+      "attendees": [
+        "Daniel Martinez"
+      ]
+    },
+    {
+      "event_id": "bc7925fd1f954f6e99d77af521488361",
+      "title": "Check-Out: Daniel Martinez (APH-2446)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Daniel Martinez\nConfirmation: APH-2446\nRoom: 604 (Ocean View King)\nTotal: $1914\nStatus: Checked-In",
+      "location": "Room 604",
+      "attendees": [
+        "Daniel Martinez"
+      ]
+    },
+    {
+      "event_id": "bfc3cb66072647b2bd7fbb2a33bb12db",
+      "title": "Check-In: Maria Garcia (APH-2447)",
+      "start_datetime": 1772184600.0,
+      "end_datetime": 1772188200.0,
+      "tag": "Check-In",
+      "description": "Guest: Maria Garcia\nConfirmation: APH-2447\nRoom: 605 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Booking.com\nSpecial Requests: Quiet room",
+      "location": "Room 605",
+      "attendees": [
+        "Maria Garcia"
+      ]
+    },
+    {
+      "event_id": "898635b1551748808b22e62496aad6b1",
+      "title": "Check-Out: Maria Garcia (APH-2447)",
+      "start_datetime": 1772775000.0,
+      "end_datetime": 1772778600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Maria Garcia\nConfirmation: APH-2447\nRoom: 605 (Ocean View King)\nTotal: $2233\nStatus: Checked-In",
+      "location": "Room 605",
+      "attendees": [
+        "Maria Garcia"
+      ]
+    },
+    {
+      "event_id": "0230c4a120b94163873eb88d4bf87b17",
+      "title": "Check-In: Lisa Taylor (APH-2448)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: Lisa Taylor\nConfirmation: APH-2448\nRoom: 606 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Expedia\nSpecial Requests: Early check-in",
+      "location": "Room 606",
+      "attendees": [
+        "Lisa Taylor"
+      ]
+    },
+    {
+      "event_id": "e60289251cff44ba8b071a89c70d3dd7",
+      "title": "Check-Out: Lisa Taylor (APH-2448)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Lisa Taylor\nConfirmation: APH-2448\nRoom: 606 (Junior Suite)\nTotal: $2793\nStatus: Checked-In",
+      "location": "Room 606",
+      "attendees": [
+        "Lisa Taylor"
+      ]
+    },
+    {
+      "event_id": "7802d62bceaf4e8ab8b64428e3b9241a",
+      "title": "Check-In: Laura King (APH-2449)",
+      "start_datetime": 1772098200.0,
+      "end_datetime": 1772101800.0,
+      "tag": "Check-In",
+      "description": "Guest: Laura King\nConfirmation: APH-2449\nRoom: 608 (Junior Suite)\nRate: $399/night\nStatus: Checked-In\nBooking Source: Hotels.com",
+      "location": "Room 608",
+      "attendees": [
+        "Laura King"
+      ]
+    },
+    {
+      "event_id": "c05a831a5cf443cdae0fa773723845cd",
+      "title": "Check-Out: Laura King (APH-2449)",
+      "start_datetime": 1772861400.0,
+      "end_datetime": 1772865000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Laura King\nConfirmation: APH-2449\nRoom: 608 (Junior Suite)\nTotal: $3591\nStatus: Checked-In",
+      "location": "Room 608",
+      "attendees": [
+        "Laura King"
+      ]
+    },
+    {
+      "event_id": "e1a43c69ca0941229b331d5ae1a0c1bb",
+      "title": "Check-In: Rebecca Cox (APH-2450)",
+      "start_datetime": 1772357400.0,
+      "end_datetime": 1772361000.0,
+      "tag": "Check-In",
+      "description": "Guest: Rebecca Cox\nConfirmation: APH-2450\nRoom: 609 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Late checkout",
+      "location": "Room 609",
+      "attendees": [
+        "Rebecca Cox"
+      ]
+    },
+    {
+      "event_id": "5fa9fa392c0d42e480d87fc49d6794b9",
+      "title": "Check-Out: Rebecca Cox (APH-2450)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Rebecca Cox\nConfirmation: APH-2450\nRoom: 609 (Ocean View King)\nTotal: $2233\nStatus: Checked-In",
+      "location": "Room 609",
+      "attendees": [
+        "Rebecca Cox"
+      ]
+    },
+    {
+      "event_id": "3dcfd911a47c48f6967fb2f4586fe9f2",
+      "title": "Check-In: David Chen (APH-2451)",
+      "start_datetime": 1772271000.0,
+      "end_datetime": 1772274600.0,
+      "tag": "Check-In",
+      "description": "Guest: David Chen\nConfirmation: APH-2451\nRoom: 610 (Ocean View King)\nRate: $319/night\nStatus: Checked-In\nBooking Source: Direct\nSpecial Requests: Extra towels",
+      "location": "Room 610",
+      "attendees": [
+        "David Chen"
+      ]
+    },
+    {
+      "event_id": "e594324c688d48adbbd6c9ad1bc25321",
+      "title": "Check-Out: David Chen (APH-2451)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: David Chen\nConfirmation: APH-2451\nRoom: 610 (Ocean View King)\nTotal: $2552\nStatus: Checked-In",
+      "location": "Room 610",
+      "attendees": [
+        "David Chen"
+      ]
+    },
+    {
+      "event_id": "86c4beb45e7149c7bbaca2c73e458c28",
+      "title": "Check-In: Jason Carter (APH-2452)",
+      "start_datetime": 1773048600.0,
+      "end_datetime": 1773052200.0,
+      "tag": "Check-In",
+      "description": "Guest: Jason Carter\nConfirmation: APH-2452\nRoom: 103 (Standard King)\nRate: $189/night\nStatus: Confirmed\nBooking Source: Hotels.com\nSpecial Requests: Low floor",
+      "location": "Room 103",
+      "attendees": [
+        "Jason Carter"
+      ]
+    },
+    {
+      "event_id": "f868da0541d2496ea789ce234540c942",
+      "title": "Check-Out: Jason Carter (APH-2452)",
+      "start_datetime": 1773293400.0,
+      "end_datetime": 1773297000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Jason Carter\nConfirmation: APH-2452\nRoom: 103 (Standard King)\nTotal: $567\nStatus: Confirmed",
+      "location": "Room 103",
+      "attendees": [
+        "Jason Carter"
+      ]
+    },
+    {
+      "event_id": "351a1702c0624c82a0cf5d6727e7bd3f",
+      "title": "Check-In: Peter Rogers (APH-2453)",
+      "start_datetime": 1773048600.0,
+      "end_datetime": 1773052200.0,
+      "tag": "Check-In",
+      "description": "Guest: Peter Rogers\nConfirmation: APH-2453\nRoom: 506 (Junior Suite)\nRate: $399/night\nStatus: Confirmed\nBooking Source: Booking.com\nSpecial Requests: High floor",
+      "location": "Room 506",
+      "attendees": [
+        "Peter Rogers"
+      ]
+    },
+    {
+      "event_id": "0c5b6589ffcc409386bbecba58419ec4",
+      "title": "Check-Out: Peter Rogers (APH-2453)",
+      "start_datetime": 1773207000.0,
+      "end_datetime": 1773210600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Peter Rogers\nConfirmation: APH-2453\nRoom: 506 (Junior Suite)\nTotal: $798\nStatus: Confirmed",
+      "location": "Room 506",
+      "attendees": [
+        "Peter Rogers"
+      ]
+    },
+    {
+      "event_id": "4841025994e241f38df3280feb1ded70",
+      "title": "Check-In: Mark Allen (APH-2454)",
+      "start_datetime": 1772789400.0,
+      "end_datetime": 1772793000.0,
+      "tag": "Check-In",
+      "description": "Guest: Mark Allen\nConfirmation: APH-2454\nRoom: 408 (Ocean View King)\nRate: $319/night\nStatus: Confirmed\nBooking Source: Booking.com",
+      "location": "Room 408",
+      "attendees": [
+        "Mark Allen"
+      ]
+    },
+    {
+      "event_id": "0b5a6aba10534996a62ec03a86678ea5",
+      "title": "Check-Out: Mark Allen (APH-2454)",
+      "start_datetime": 1773207000.0,
+      "end_datetime": 1773210600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Mark Allen\nConfirmation: APH-2454\nRoom: 408 (Ocean View King)\nTotal: $1595\nStatus: Confirmed",
+      "location": "Room 408",
+      "attendees": [
+        "Mark Allen"
+      ]
+    },
+    {
+      "event_id": "f6ac32d383b94ed5b8771c4109ea4786",
+      "title": "Check-In: Michelle Lewis (APH-2455)",
+      "start_datetime": 1772703000.0,
+      "end_datetime": 1772706600.0,
+      "tag": "Check-In",
+      "description": "Guest: Michelle Lewis\nConfirmation: APH-2455\nRoom: 607 (Executive Suite)\nRate: $549/night\nStatus: Confirmed\nBooking Source: Direct\nSpecial Requests: Away from elevator",
+      "location": "Room 607",
+      "attendees": [
+        "Michelle Lewis"
+      ]
+    },
+    {
+      "event_id": "95efc6c17c7c4edd8208935fda68e9b4",
+      "title": "Check-Out: Michelle Lewis (APH-2455)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Michelle Lewis\nConfirmation: APH-2455\nRoom: 607 (Executive Suite)\nTotal: $1647\nStatus: Confirmed",
+      "location": "Room 607",
+      "attendees": [
+        "Michelle Lewis"
+      ]
+    },
+    {
+      "event_id": "701349d236944bab93d536c8600da73d",
+      "title": "Check-In: Gerald Howard (APH-2456)",
+      "start_datetime": 1772789400.0,
+      "end_datetime": 1772793000.0,
+      "tag": "Check-In",
+      "description": "Guest: Gerald Howard\nConfirmation: APH-2456\nRoom: 405 (Executive Suite)\nRate: $549/night\nStatus: Confirmed\nBooking Source: Hotels.com\nSpecial Requests: Low floor",
+      "location": "Room 405",
+      "attendees": [
+        "Gerald Howard"
+      ]
+    },
+    {
+      "event_id": "63cc9cb3b4fb4a11ae7d60c8d68b19a4",
+      "title": "Check-Out: Gerald Howard (APH-2456)",
+      "start_datetime": 1773034200.0,
+      "end_datetime": 1773037800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Gerald Howard\nConfirmation: APH-2456\nRoom: 405 (Executive Suite)\nTotal: $1647\nStatus: Confirmed",
+      "location": "Room 405",
+      "attendees": [
+        "Gerald Howard"
+      ]
+    },
+    {
+      "event_id": "ff1344d87f9b44ecb5dbce49e67098da",
+      "title": "Check-In: Jessica Park (APH-2457)",
+      "start_datetime": 1772530200.0,
+      "end_datetime": 1772533800.0,
+      "tag": "Check-In",
+      "description": "Guest: Jessica Park\nConfirmation: APH-2457\nRoom: 304 (Ocean View Double)\nRate: $309/night\nStatus: Confirmed\nBooking Source: Expedia",
+      "location": "Room 304",
+      "attendees": [
+        "Jessica Park"
+      ]
+    },
+    {
+      "event_id": "912460553e7a457dada491523c31598d",
+      "title": "Check-Out: Jessica Park (APH-2457)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Jessica Park\nConfirmation: APH-2457\nRoom: 304 (Ocean View Double)\nTotal: $1545\nStatus: Confirmed",
+      "location": "Room 304",
+      "attendees": [
+        "Jessica Park"
+      ]
+    },
+    {
+      "event_id": "3d6b9be0a04d4c49bef3996c11aba1d5",
+      "title": "Check-In: Maria Garcia (APH-2458)",
+      "start_datetime": 1772789400.0,
+      "end_datetime": 1772793000.0,
+      "tag": "Check-In",
+      "description": "Guest: Maria Garcia\nConfirmation: APH-2458\nRoom: 203 (Deluxe King)\nRate: $249/night\nStatus: Confirmed\nBooking Source: Booking.com\nSpecial Requests: Away from elevator",
+      "location": "Room 203",
+      "attendees": [
+        "Maria Garcia"
+      ]
+    },
+    {
+      "event_id": "8f41e21d4d2e4db28e6467adba0454df",
+      "title": "Check-Out: Maria Garcia (APH-2458)",
+      "start_datetime": 1772947800.0,
+      "end_datetime": 1772951400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Maria Garcia\nConfirmation: APH-2458\nRoom: 203 (Deluxe King)\nTotal: $498\nStatus: Confirmed",
+      "location": "Room 203",
+      "attendees": [
+        "Maria Garcia"
+      ]
+    },
+    {
+      "event_id": "bfe324bc47e74278acfeeea928758291",
+      "title": "Check-In: Deborah Parker (APH-2459)",
+      "start_datetime": 1772789400.0,
+      "end_datetime": 1772793000.0,
+      "tag": "Check-In",
+      "description": "Guest: Deborah Parker\nConfirmation: APH-2459\nRoom: 208 (Deluxe Double)\nRate: $239/night\nStatus: Confirmed\nBooking Source: Direct\nSpecial Requests: Away from elevator",
+      "location": "Room 208",
+      "attendees": [
+        "Deborah Parker"
+      ]
+    },
+    {
+      "event_id": "0f88cb7a8d2c4c7c8c9f2b63021eb0dd",
+      "title": "Check-Out: Deborah Parker (APH-2459)",
+      "start_datetime": 1773207000.0,
+      "end_datetime": 1773210600.0,
+      "tag": "Check-Out",
+      "description": "Guest: Deborah Parker\nConfirmation: APH-2459\nRoom: 208 (Deluxe Double)\nTotal: $1195\nStatus: Confirmed",
+      "location": "Room 208",
+      "attendees": [
+        "Deborah Parker"
+      ]
+    },
+    {
+      "event_id": "01e8d1eabfe14854a97e515c2330bdcb",
+      "title": "Check-In: Kevin White (APH-2460)",
+      "start_datetime": 1771320600.0,
+      "end_datetime": 1771324200.0,
+      "tag": "Check-In",
+      "description": "Guest: Kevin White\nConfirmation: APH-2460\nRoom: 304 (Ocean View Double)\nRate: $309/night\nStatus: Checked-Out\nBooking Source: Hotels.com",
+      "location": "Room 304",
+      "attendees": [
+        "Kevin White"
+      ]
+    },
+    {
+      "event_id": "13e2c227419a413481fd51c980ab6302",
+      "title": "Check-Out: Kevin White (APH-2460)",
+      "start_datetime": 1771651800.0,
+      "end_datetime": 1771655400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Kevin White\nConfirmation: APH-2460\nRoom: 304 (Ocean View Double)\nTotal: $1236\nStatus: Checked-Out",
+      "location": "Room 304",
+      "attendees": [
+        "Kevin White"
+      ]
+    },
+    {
+      "event_id": "1055721af4da4da7a646ef36f19d7278",
+      "title": "Check-In: Betty Bell (APH-2461)",
+      "start_datetime": 1771925400.0,
+      "end_datetime": 1771929000.0,
+      "tag": "Check-In",
+      "description": "Guest: Betty Bell\nConfirmation: APH-2461\nRoom: TBD (Ocean View Double)\nRate: $309/night\nStatus: No-Show\nBooking Source: Hotels.com",
+      "location": "Front Desk",
+      "attendees": [
+        "Betty Bell"
+      ]
+    },
+    {
+      "event_id": "0da9f55307c5431a8b698c9c673e8dd0",
+      "title": "Check-Out: Betty Bell (APH-2461)",
+      "start_datetime": 1772256600.0,
+      "end_datetime": 1772260200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Betty Bell\nConfirmation: APH-2461\nRoom: TBD (Ocean View Double)\nTotal: $1236\nStatus: No-Show",
+      "location": "Front Desk",
+      "attendees": [
+        "Betty Bell"
+      ]
+    },
+    {
+      "event_id": "57b404f7b5e2402ea29de12c0c40742e",
+      "title": "Check-In: Gary Sanchez (APH-2462)",
+      "start_datetime": 1771320600.0,
+      "end_datetime": 1771324200.0,
+      "tag": "Check-In",
+      "description": "Guest: Gary Sanchez\nConfirmation: APH-2462\nRoom: TBD (Ocean View Double)\nRate: $309/night\nStatus: No-Show\nBooking Source: Expedia",
+      "location": "Front Desk",
+      "attendees": [
+        "Gary Sanchez"
+      ]
+    },
+    {
+      "event_id": "026dcb874725466b9261a9fd70c11066",
+      "title": "Check-Out: Gary Sanchez (APH-2462)",
+      "start_datetime": 1771651800.0,
+      "end_datetime": 1771655400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Gary Sanchez\nConfirmation: APH-2462\nRoom: TBD (Ocean View Double)\nTotal: $1236\nStatus: No-Show",
+      "location": "Front Desk",
+      "attendees": [
+        "Gary Sanchez"
+      ]
+    },
+    {
+      "event_id": "2c3045abd48e461892acbdd092bceaff",
+      "title": "Check-In: Raymond Rivera (APH-2463)",
+      "start_datetime": 1771234200.0,
+      "end_datetime": 1771237800.0,
+      "tag": "Check-In",
+      "description": "Guest: Raymond Rivera\nConfirmation: APH-2463\nRoom: TBD (Standard King)\nRate: $189/night\nStatus: Cancelled\nBooking Source: Booking.com",
+      "location": "Front Desk",
+      "attendees": [
+        "Raymond Rivera"
+      ]
+    },
+    {
+      "event_id": "6da614e666d145af9816ea8051d68fbd",
+      "title": "Check-Out: Raymond Rivera (APH-2463)",
+      "start_datetime": 1771651800.0,
+      "end_datetime": 1771655400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Raymond Rivera\nConfirmation: APH-2463\nRoom: TBD (Standard King)\nTotal: $945\nStatus: Cancelled",
+      "location": "Front Desk",
+      "attendees": [
+        "Raymond Rivera"
+      ]
+    },
+    {
+      "event_id": "9ddfada863cf44c19559eaf168edae77",
+      "title": "Check-In: Robert Anderson (APH-2464)",
+      "start_datetime": 1771579800.0,
+      "end_datetime": 1771583400.0,
+      "tag": "Check-In",
+      "description": "Guest: Robert Anderson\nConfirmation: APH-2464\nRoom: 208 (Deluxe Double)\nRate: $239/night\nStatus: Checked-Out\nBooking Source: Booking.com",
+      "location": "Room 208",
+      "attendees": [
+        "Robert Anderson"
+      ]
+    },
+    {
+      "event_id": "247f587f4dbc43e7b44fd8ec5751c319",
+      "title": "Check-Out: Robert Anderson (APH-2464)",
+      "start_datetime": 1771824600.0,
+      "end_datetime": 1771828200.0,
+      "tag": "Check-Out",
+      "description": "Guest: Robert Anderson\nConfirmation: APH-2464\nRoom: 208 (Deluxe Double)\nTotal: $717\nStatus: Checked-Out",
+      "location": "Room 208",
+      "attendees": [
+        "Robert Anderson"
+      ]
+    },
+    {
+      "event_id": "663789a8bd9845e282168873723347f2",
+      "title": "Check-In: Patrick O'Brien (APH-2501)",
+      "start_datetime": 1773567000.0,
+      "end_datetime": 1773570600.0,
+      "tag": "Check-In",
+      "description": "Guest: Patrick O'Brien\nConfirmation: APH-2501\nRoom: 201 (Deluxe King)\nRate: $279/night\nStatus: Confirmed\nBooking Source: Booking.com\nSpecial Requests: High floor preferred",
+      "location": "Room 201",
+      "attendees": [
+        "Patrick O'Brien"
+      ]
+    },
+    {
+      "event_id": "442722a92525465d892921fafd49f046",
+      "title": "Check-Out: Patrick O'Brien (APH-2501)",
+      "start_datetime": 1773811800.0,
+      "end_datetime": 1773815400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Patrick O'Brien\nConfirmation: APH-2501\nRoom: 201 (Deluxe King)\nTotal: $837\nStatus: Confirmed",
+      "location": "Room 201",
+      "attendees": [
+        "Patrick O'Brien"
+      ]
+    },
+    {
+      "event_id": "45765154943c46a5bb045b0c126ba18c",
+      "title": "Check-In: Kelly Murphy (APH-2502)",
+      "start_datetime": 1773653400.0,
+      "end_datetime": 1773657000.0,
+      "tag": "Check-In",
+      "description": "Guest: Kelly Murphy\nConfirmation: APH-2502\nRoom: 201 (Deluxe King)\nRate: $299/night\nStatus: Confirmed\nBooking Source: Expedia",
+      "location": "Room 201",
+      "attendees": [
+        "Kelly Murphy"
+      ]
+    },
+    {
+      "event_id": "8a34c22d62264c07977da0eeb2354e3d",
+      "title": "Check-Out: Kelly Murphy (APH-2502)",
+      "start_datetime": 1773898200.0,
+      "end_datetime": 1773901800.0,
+      "tag": "Check-Out",
+      "description": "Guest: Kelly Murphy\nConfirmation: APH-2502\nRoom: 201 (Deluxe King)\nTotal: $897\nStatus: Confirmed",
+      "location": "Room 201",
+      "attendees": [
+        "Kelly Murphy"
+      ]
+    },
+    {
+      "event_id": "86e87d18d87c44d5b1aacd8bac757278",
+      "title": "Check-In: Sean McCarthy (APH-2503)",
+      "start_datetime": 1773480600.0,
+      "end_datetime": 1773484200.0,
+      "tag": "Check-In",
+      "description": "Guest: Sean McCarthy\nConfirmation: APH-2503\nRoom: 305 (Ocean View King)\nRate: $449/night\nStatus: Confirmed\nBooking Source: Direct Website\nSpecial Requests: Late checkout if possible",
+      "location": "Room 305",
+      "attendees": [
+        "Sean McCarthy"
+      ]
+    },
+    {
+      "event_id": "134fea04cae2471bbf0d33a8661f946c",
+      "title": "Check-Out: Sean McCarthy (APH-2503)",
+      "start_datetime": 1773725400.0,
+      "end_datetime": 1773729000.0,
+      "tag": "Check-Out",
+      "description": "Guest: Sean McCarthy\nConfirmation: APH-2503\nRoom: 305 (Ocean View King)\nTotal: $1347\nStatus: Confirmed",
+      "location": "Room 305",
+      "attendees": [
+        "Sean McCarthy"
+      ]
+    },
+    {
+      "event_id": "e72e4f9ccfb9453dafde7508c188b6f4",
+      "title": "Check-In: Bridget Ryan (APH-2504)",
+      "start_datetime": 1773653400.0,
+      "end_datetime": 1773657000.0,
+      "tag": "Check-In",
+      "description": "Guest: Bridget Ryan\nConfirmation: APH-2504\nRoom: 305 (Ocean View King)\nRate: $469/night\nStatus: Confirmed\nBooking Source: Hotels.com\nSpecial Requests: Celebrating anniversary",
+      "location": "Room 305",
+      "attendees": [
+        "Bridget Ryan"
+      ]
+    },
+    {
+      "event_id": "47472814710340468bbc0e98e6743e84",
+      "title": "Check-Out: Bridget Ryan (APH-2504)",
+      "start_datetime": 1773811800.0,
+      "end_datetime": 1773815400.0,
+      "tag": "Check-Out",
+      "description": "Guest: Bridget Ryan\nConfirmation: APH-2504\nRoom: 305 (Ocean View King)\nTotal: $938\nStatus: Confirmed",
+      "location": "Room 305",
+      "attendees": [
+        "Bridget Ryan"
+      ]
+    }
+  ]
+}

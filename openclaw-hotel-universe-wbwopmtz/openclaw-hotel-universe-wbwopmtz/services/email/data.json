@@ -1,0 +1,420 @@
+{
+  "user_email": "frontdesk@azurepearl.example.com",
+  "emails": [
+    {
+      "email_id": "0460c084ccc848189aa10b3b1e224e20",
+      "folder": "INBOX",
+      "sender": "amanda.w@outlook.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Wedding guest block rate",
+      "content": "Hello, I'm attending a wedding at your hotel next month and the bride mentioned there's a group rate. Can you send me the booking link for the Wilson-Stevens wedding block? Thank you!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1771060500.0,
+      "is_read": true
+    },
+    {
+      "email_id": "563e0db66a9c41e7965b7265e6c1c7d6",
+      "folder": "INBOX",
+      "sender": "kathleen.morris@email.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Beach towels and chairs?",
+      "content": "Quick question - do you provide beach towels and chairs for guests? We're staying APH-2416 and planning to spend time at the beach. Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1771933500.0,
+      "is_read": true
+    },
+    {
+      "email_id": "f2c4d8abfbfe429d8e1c0a277f4bb329",
+      "folder": "INBOX",
+      "sender": "tbaker@consulting.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Spa services and pricing",
+      "content": "Do you have a spa? I'm staying APH-2406 and would love to book a massage. Can you send me the spa menu and pricing? Also, what are the hours? Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772005500.0,
+      "is_read": true
+    },
+    {
+      "email_id": "d79ad28cca9348fcbb8cff81e4bd9cbc",
+      "folder": "INBOX",
+      "sender": "jpark.design@gmail.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Iron and ironing board in room?",
+      "content": "Quick question - do your rooms come with an iron and ironing board? I have important meetings during my stay (APH-2405) and need to look presentable. If not, is there laundry service?",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772028900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "7dfbfa49f9af4f0699ad7e0fcc411b9e",
+      "folder": "INBOX",
+      "sender": "ghoward@agency.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Birthday surprise for husband",
+      "content": "Hi! Checking in tomorrow for APH-2423. It's my husband's 50th birthday and I'd love to surprise him. Can you help arrange a birthday cake to be delivered to our room? Happy to pay extra. Thank you!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772001900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "e6f1990c75264979a65d6e6a68d0c4eb",
+      "folder": "INBOX",
+      "sender": "swalker@firm.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Concierge services available?",
+      "content": "Do you have concierge services? I'm staying APH-2418 and need help booking a dinner reservation at Nobu Malibu for Saturday night. Also interested in recommendations for activities. Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772001900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "f985979e25e44cd9bc2fab4ed4285274",
+      "folder": "INBOX",
+      "sender": "rrivera@tech.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Room cleaning preferences",
+      "content": "Hello! I'm in room for APH-2443 and prefer not to have daily housekeeping. Can you please skip cleaning my room during my stay? I'll request fresh towels if needed. Thanks for helping reduce environmental impact!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772181900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "002392d4d5cd4b0383217b6e90872c24",
+      "folder": "INBOX",
+      "sender": "dchen@techcorp.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Temperature control in room",
+      "content": "The AC in my room (APH-2421) doesn't seem to be working properly. It's very warm and I can't get it below 74 degrees. Can maintenance check it? Room temperature is really important for my sleep. Thank you!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772183700.0,
+      "is_read": true
+    },
+    {
+      "email_id": "17b4a3086e7f4650b46252b842cb80ad",
+      "folder": "INBOX",
+      "sender": "mthompson@yahoo.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Noise complaint - room 205",
+      "content": "I'm in room for APH-2444 and there's been loud music coming from room 205 for the past hour. It's now 11:30 PM. Can someone please address this? I have an early morning meeting. Thank you.",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772271000.0,
+      "is_read": true
+    },
+    {
+      "email_id": "8cc2de3372c8409fb79b344644e8e058",
+      "folder": "INBOX",
+      "sender": "dorothy.bailey@company.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Room change request",
+      "content": "I'm checking in today (APH-2445) and just realized I booked an ocean view but would actually prefer a quieter city view room on a higher floor if available. Can we swap? What would be the price difference?",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772273460.0,
+      "is_read": true
+    },
+    {
+      "email_id": "8f71682cbf984f0ba0c7ddc4802a2f57",
+      "folder": "INBOX",
+      "sender": "jcarter@agency.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Pet policy question",
+      "content": "Quick question - do you allow pets? I have a small dog (15 lbs) and would love to bring him for my stay March 1-5 (APH-2430). If yes, what's the pet fee? If not, can you recommend a nearby pet-friendly hotel? Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772252220.0,
+      "is_read": true
+    },
+    {
+      "email_id": "1be24d41d3bb4074b74a19a5f0aefc26",
+      "folder": "INBOX",
+      "sender": "dmartinez@gmail.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Dietary restrictions for breakfast",
+      "content": "Hi! We're checking in tomorrow (confirmation APH-2446). My husband has a severe gluten allergy. Do you have gluten-free options for breakfast? Also need to avoid cross-contamination. Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772256600.0,
+      "is_read": true
+    },
+    {
+      "email_id": "780f49c052b341e8ade47de5cc27e1c0",
+      "folder": "INBOX",
+      "sender": "fmurphy@business.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Loyalty points not showing",
+      "content": "I'm a Gold member and just checked in yesterday (APH-2444) but I don't see the points credited to my account yet. Also, I should be getting complimentary breakfast as a Gold member but the front desk said that's not included. Can you clarify your loyalty benefits?",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772439780.0,
+      "is_read": true
+    },
+    {
+      "email_id": "cf47f378544f46eabfb52bf3f4f22042",
+      "folder": "INBOX",
+      "sender": "tmoore@business.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Need to extend my stay",
+      "content": "Hi there, I'm currently checked in (APH-2416) and need to extend my checkout from March 4th to March 6th. Is my Junior Suite available for those extra nights? Let me know the rate. Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772441280.0,
+      "is_read": true
+    },
+    {
+      "email_id": "591eb1af47e24642bba93fc63f36f2fa",
+      "folder": "INBOX",
+      "sender": "jcollins@tech.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Business center and printing",
+      "content": "I'm checked in currently (APH-2436) and need to print some documents for a meeting. Do you have a business center? What are the hours? Is there a charge for printing? Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772431620.0,
+      "is_read": true
+    },
+    {
+      "email_id": "819335c129124137b15d5459b2e6deb0",
+      "folder": "INBOX",
+      "sender": "melissa.phillips@gmail.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Never received confirmation email",
+      "content": "I booked a room through Booking.com but never received a confirmation email. My booking reference is APH-2442. Can you resend it? I'm worried my reservation didn't go through properly. I'm currently checked in but want the confirmation for my records.",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772528340.0,
+      "is_read": true
+    },
+    {
+      "email_id": "7bf782812df14f43873274f6ab13f99e",
+      "folder": "INBOX",
+      "sender": "pwright@business.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Anniversary flowers delivered?",
+      "content": "Hi! I had a bouquet of red roses delivered to room for APH-2439 yesterday but my wife says they never arrived. Can you check if they were delivered? Order was from ProFlowers. Thank you!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772528400.0,
+      "is_read": true
+    },
+    {
+      "email_id": "7149d4893e92401e82a240e87998ed53",
+      "folder": "INBOX",
+      "sender": "kwhite@tech.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Need to cancel - full refund expected",
+      "content": "I need to cancel my current reservation APH-2431 and check out early due to a family emergency. I know I'm already checked in but this is urgent. I booked this 2 weeks ago and expect a refund for the remaining nights. Can you process this today?",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772530920.0,
+      "is_read": true
+    },
+    {
+      "email_id": "b34d165039c347b08b586915ef44e609",
+      "folder": "INBOX",
+      "sender": "eevans@business.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Extra pillows please",
+      "content": "Could I get 2 extra pillows delivered to my room? I'm in APH-2414 and the pillows provided are too soft for me. Firm pillows preferred. Thanks so much!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772505900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "63c584fded004096bf6c0b7db8e48e6b",
+      "folder": "INBOX",
+      "sender": "lisa.taylor@company.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Checkout time confirmation",
+      "content": "Hi, I'm currently checked in (APH-2448) and checking out on March 7. Just want to confirm checkout is at 11 AM. Is late checkout available? Would love to stay until 1 PM if possible. Thank you!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772628300.0,
+      "is_read": true
+    },
+    {
+      "email_id": "4f3d1f1b5ac540cbbd20dcffa0245138",
+      "folder": "INBOX",
+      "sender": "gsanchez@consulting.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Room key not working",
+      "content": "My room key for APH-2432 has stopped working - I've tried it 5 times and the door won't open. I'm standing outside my room now. Can you reactivate it or should I come to the front desk? Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772691300.0,
+      "is_read": true
+    },
+    {
+      "email_id": "d03dbcb3512e4997ac3e7c43712c0724",
+      "folder": "INBOX",
+      "sender": "dchen@techcorp.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Coffee maker not working",
+      "content": "Good morning! The coffee maker in my room (APH-2451) isn't working. I really need my morning coffee! Can you send someone to fix it or bring a new one? Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1772856000.0,
+      "is_read": true
+    },
+    {
+      "email_id": "f740d4534746462abd87208f2465036e",
+      "folder": "INBOX",
+      "sender": "progers@agency.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Mini bar charges",
+      "content": "I'm checked in currently (APH-2453) and noticed the mini bar in my room. Are these automatically charged to the room? What are the prices? Just want to know before I use anything. Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1773117900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "f166f4d719344496a9ee197a07af679a",
+      "folder": "INBOX",
+      "sender": "mark.allen@gmail.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Lost item - black laptop charger",
+      "content": "Hi, I checked out yesterday from APH-2454 and realized I left my black MacBook Pro charger in the room. Has it been turned in to lost and found? Can you ship it to me if found? Happy to pay shipping. Thanks!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1773297900.0,
+      "is_read": true
+    },
+    {
+      "email_id": "faa1f0442b1a4039a815ee21825a45b6",
+      "folder": "INBOX",
+      "sender": "jpark.design@gmail.com",
+      "recipients": [
+        "frontdesk@azurepearl.example.com"
+      ],
+      "subject": "Taxi service to LAX",
+      "content": "Hi, I'm checking out tomorrow morning at 6 AM (APH-2502) and need a reliable taxi to LAX. Can you arrange this? My flight is at 9 AM so I need to leave by 6:15 AM. Thank you!",
+      "cc": [],
+      "parent_id": null,
+      "attachments": {},
+      "timestamp": 1773837000.0,
+      "is_read": true
+    }
+  ],
+  "jmap_emails": [],
+  "threads": [],
+  "mailboxes": [
+    {
+      "id": "INBOX",
+      "name": "Inbox",
+      "role": "inbox",
+      "totalEmails": 25,
+      "unreadEmails": 0,
+      "totalThreads": 0,
+      "unreadThreads": 0
+    },
+    {
+      "id": "SENT",
+      "name": "Sent",
+      "role": "sent",
+      "totalEmails": 0,
+      "unreadEmails": 0,
+      "totalThreads": 0,
+      "unreadThreads": 0
+    },
+    {
+      "id": "DRAFT",
+      "name": "Drafts",
+      "role": "drafts",
+      "totalEmails": 0,
+      "unreadEmails": 0,
+      "totalThreads": 0,
+      "unreadThreads": 0
+    },
+    {
+      "id": "TRASH",
+      "name": "Trash",
+      "role": "trash",
+      "totalEmails": 0,
+      "unreadEmails": 0,
+      "totalThreads": 0,
+      "unreadThreads": 0
+    }
+  ]
+}

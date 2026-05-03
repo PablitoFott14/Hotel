@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Azure Pearl Hotel - OpenClaw Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logo">AP</div>
+        <div class="brand-name">
+          <span>The Azure Pearl Hotel</span>
+          <small>Front Desk · Santa Monica, CA · OpenClaw</small>
+        </div>
+      </div>
+
+      <nav class="tabs">
+        <button class="tab active" data-tab="overview">Overview</button>
+        <button class="tab" data-tab="reservations">Reservations</button>
+        <button class="tab" data-tab="rooms">Rooms</button>
+        <button class="tab" data-tab="guests">Guests</button>
+        <button class="tab" data-tab="communications">Communications</button>
+        <button class="tab" data-tab="calendar">Calendar</button>
+      </nav>
+
+      <div class="hdr-right">
+        <span class="pulse-dot loading" id="status-dot"></span>
+        <span class="status-text" id="status-text">Loading…</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="page active" id="page-overview">
+      <div id="overview-content"></div>
+    </section>
+
+    <section class="page" id="page-reservations">
+      <div class="page-title"><h2>Reservations</h2><p>All bookings · APH-2401 onwards</p></div>
+      <div id="reservations-content"></div>
+    </section>
+
+    <section class="page" id="page-rooms">
+      <div class="page-title"><h2>Rooms</h2><p>60 rooms · 9 room types · 6 floors</p></div>
+      <div id="rooms-content"></div>
+    </section>
+
+    <section class="page" id="page-guests">
+      <div class="page-title"><h2>Guests</h2><p>Guest profiles · Stay history · Contact records</p></div>
+      <div id="guests-content"></div>
+    </section>
+
+    <section class="page" id="page-communications">
+      <div class="page-title"><h2>Communications</h2><p>Email · Guest correspondence</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="comm-inbox">Inbox</button>
+        <button class="sub-tab" data-subtab="comm-resmail">Reservation Mail</button>
+      </div>
+      <div id="comm-inbox" class="sub-page active"></div>
+      <div id="comm-resmail" class="sub-page"></div>
+    </section>
+
+    <section class="page" id="page-calendar">
+      <div class="page-title"><h2>Calendar</h2><p>Check-ins · Check-outs</p></div>
+      <div id="calendar-content"></div>
+    </section>
+
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay hidden" onclick="handleModalClick(event)">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <span class="modal-badge" id="modal-badge"></span>
+          <span class="modal-title" id="modal-title"></span>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader-box">
+      <div class="spinner"></div>
+      <p id="load-status">Loading Azure Pearl Universe…</p>
+    </div>
+  </div>
+
+  <script src="js/overview.js"></script>
+  <script src="js/reservations.js"></script>
+  <script src="js/rooms.js"></script>
+  <script src="js/guests.js"></script>
+  <script src="js/communications.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
