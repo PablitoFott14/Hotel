@@ -19,23 +19,18 @@ function renderCommunications(DATA) {
   const hm       = DATA.hotelMgmt || {};
   const hmEmails = hm.emails       || [];
 
-  // Email inbox setup
+  // Email inbox setup — all 25 emails are INBOX, folder filter omitted
   _emAll = [...emails].sort((a, b) => (b.timestamp||0) - (a.timestamp||0));
-  const folders = [...new Set(_emAll.map(e => e.folder).filter(Boolean))].sort();
-  const unread  = _emAll.filter(e => !e.is_read && e.folder === 'INBOX').length;
+  const unread = _emAll.filter(e => !e.is_read).length;
 
   document.getElementById('comm-inbox').innerHTML = `
     <div class="explorer-bar">
       <input id="em-search" class="ex-search" type="text" placeholder="Subject, sender, content…" />
-      <select id="em-folder" class="ex-filter">
-        ${folders.map(f => `<option value="${escHtml(f)}"${f==='INBOX'?' selected':''}>${escHtml(f)}${f==='INBOX'&&unread>0?' ('+unread+' unread)':''}</option>`).join('')}
-      </select>
       <span class="ex-count" id="em-count"></span>
     </div>
     <div id="em-list"></div>`;
 
   document.getElementById('em-search').addEventListener('input', e => { _emSearch = e.target.value.toLowerCase(); _drawEmails(); });
-  document.getElementById('em-folder').addEventListener('change', e => { _emFolder = e.target.value; _drawEmails(); });
   _drawEmails();
 
   // Reservation mail setup
@@ -59,7 +54,6 @@ function renderCommunications(DATA) {
 
 function _drawEmails() {
   const filtered = _emAll.filter(e => {
-    if (_emFolder && e.folder !== _emFolder) return false;
     if (!_emSearch) return true;
     return (e.subject || '').toLowerCase().includes(_emSearch)
       || (e.sender   || '').toLowerCase().includes(_emSearch)
@@ -115,19 +109,18 @@ function _drawResMail() {
   page.forEach(e => {
     const eid = 'rm-' + escHtml(e.email_id);
     html += `<div class="email-item">
-      <div class="email-header" onclick="apToggleEmail('${escHtml(e.email_id)}')">
+      <div class="email-header" onclick="apToggleEmail('${eid}')">
         <span class="email-read-dot"></span>
-        <span class="email-from">${escHtml(e.from_name || e.from_email)}</span>
-        <span class="email-subject">${escHtml(e.subject || '(no subject)')}</span>
-        <span class="email-meta">
-          ${escHtml(e.date || '')} ·
-          <span class="mono" style="color:var(--azure)">${escHtml(e.confirmation_code||'')}</span>
-        </span>
+        <div style="flex:1;min-width:0;display:flex;align-items:center;gap:8px">
+          <span style="font-size:12px;font-weight:600;color:var(--text);flex-shrink:0;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.from_name || e.from_email)}</span>
+          ${e.confirmation_code ? `<span class="badge badge-azure" style="flex-shrink:0;font-size:9px">${escHtml(e.confirmation_code)}</span>` : ''}
+          <span style="font-size:12px;color:var(--text2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(e.subject || '(no subject)')}</span>
+        </div>
+        <span class="email-meta" style="flex-shrink:0;margin-left:8px">${escHtml(e.date || '')}</span>
       </div>
       <div class="email-body" id="${eid}">
         <div style="font-size:10px;color:var(--text3);margin-bottom:8px">
-          From: ${escHtml(e.from_email)} · ${escHtml(e.date)} ${escHtml(e.time||'')}
-          ${e.confirmation_code ? ` · Confirmation: <span style="color:var(--azure)">${escHtml(e.confirmation_code)}</span>` : ''}
+          From: ${escHtml(e.from_email)} · ${escHtml(e.date)}${e.time ? ' ' + escHtml(e.time) : ''}
         </div>
         ${escHtml(e.body || '')}
       </div>
@@ -140,6 +133,9 @@ function _drawResMail() {
 }
 
 function apToggleEmail(id) {
-  const el = document.getElementById('em-' + id) || document.getElementById('rm-' + id);
+  // id may be a full element ID or a raw email_id (legacy patterns)
+  const el = document.getElementById(id)
+    || document.getElementById('em-' + id)
+    || document.getElementById('rm-' + id);
   if (el) el.classList.toggle('open');
 }
